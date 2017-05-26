@@ -20,6 +20,7 @@ defaults:
     type: pages
   values:
     layout: page
+
 email: ''
 description: Photo Journal
 url: https://www.gbkunkel.com
