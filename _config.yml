@@ -25,13 +25,13 @@ description: Photo Journal
 url: https://www.gbkunkel.com
 facebook_username: ''
 instagram_username: gbkunkel
-github_username: 'gbkunkel'
+github_username: gbkunkel
 share: true
 owner:
   name: gbkunkel
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography 
+  info: photography
 nav:
 - GALLERY: https://www.gbkunkel.com/gallery/
 - JOURNAL: https://www.gbkunkel.com/journal/
