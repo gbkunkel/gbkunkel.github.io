@@ -34,7 +34,6 @@ owner:
   info: photography
 nav:
 - GALLERY: https://www.gbkunkel.com/gallery/
-#- JOURNAL: https://www.gbkunkel.com/journal/
 - ABOUT: https://www.gbkunkel.com/about/
 translations:
   permalink: "/404.html"
