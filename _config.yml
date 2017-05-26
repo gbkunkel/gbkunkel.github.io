@@ -1,4 +1,4 @@
----
+# Site settings
 title: Gerald B Kunkel
 timezone: America/New_York
 collections:
@@ -20,4 +20,65 @@ defaults:
     type: pages
   values:
     layout: page
+email: ""
+description: "Photo Journal"
+#permalink: pretty
+
+url: "https://www.gbkunkel.com"
+facebook_username: ""
+twitter_username: ""
+instagram_username: "gbkunkel"
+github_username:  ""
+deviantart_username: ""
+flickr_username: ""
+discus_shortname: ""
+share: true
+
+# Owner/author information
+owner:
+  name:   photorama
+  avatar: avatar.png
+  favicon: favicon.ico
+  info: photography website template
+
+# Internal nav
+nav:
+  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
+  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
+  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+
+# All translation keys
+translations:
+ # 404.html
+  permalink: "/404.html"
+
+# Server
+destination:      	 ./_site
+port:             	 4000
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
 permalink: pretty
+paginate: 5
+paginate_path: "/journal/page:num/"
+permalink: "/journal/:title/"
+categories_path: "/journal/category/"
+tags_path: "/journal/tag/"
+gems: 
+ - jekyll-paginate
+
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# SiteMap
+sitemap:
+  file: "/sitemap.xml"
+  exclude:
+    - "/atom.xml"
+    - "/feed.xml"
+    - "/feed/index.xml"
+  include_posts:
+    - "/writing/"
+  change_frequency_name: "change_frequency"
+  priority_name: "priority"
