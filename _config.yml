@@ -24,18 +24,14 @@ email: ''
 description: Photo Journal
 url: https://www.gbkunkel.com
 facebook_username: ''
-twitter_username: ''
 instagram_username: gbkunkel
-github_username: ''
-deviantart_username: ''
-flickr_username: ''
-discus_shortname: ''
+github_username: 'gbkunkel'
 share: true
 owner:
-  name: photorama
+  name: gbkunkel
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: photography 
 nav:
 - GALLERY: https://www.gbkunkel.com/gallery/
 - JOURNAL: https://www.gbkunkel.com/journal/
