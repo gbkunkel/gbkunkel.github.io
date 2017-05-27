@@ -2,6 +2,9 @@
 title: Gerald B Kunkel
 timezone: America/New_York
 collections:
+  photos:
+    title: Photos
+    output: true
   posts:
     title: Posts
     output: true
