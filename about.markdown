@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: About
 date: 2017-05-26 22:39:00 -04:00
 header-img: img/about-bg.jpg
 ---
