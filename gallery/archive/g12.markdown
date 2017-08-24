@@ -1,4 +1,7 @@
 ---
+---
+
+---
 title: album
 layout: page
 description: masonry
